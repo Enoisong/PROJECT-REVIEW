@@ -1,0 +1,53 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+ }
+#nav-bar{
+    margin: 0px;
+    position:fixed;
+    top:0px;
+    
+  }
+  
+ 
+  
+  
+  header {
+      min-height: 40%;
+      width: 100%;
+      display:inline-block;
+      justify-content: space-between;
+      
+        
+  }
+  .nav-list{
+     min-width:50%;
+     float:left;
+     
+  }
+  
+  nav link{
+  display:line block;
+  padding:8px
+  }
+  #header-image{
+  
+  width:5px;
+  height:5px;
+  }
+  
+  
+  @media(max-width:500px){
+  
+  }
+  body{
+      flex-wrap:wrap
+  }
+   
